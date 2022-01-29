@@ -7,7 +7,7 @@ import "./Dictionary.css";
 
 export default function Dictionary(props){
   
-  let [keyword, setKeyword] = useState(""); 
+  let [keyword, setKeyword] = useState(props.defaultKeyword); 
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null); 
@@ -22,11 +22,11 @@ export default function Dictionary(props){
 
   function search() {
     //documentation:https://dictionaryapi.dev
-    let apiUrl=`https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
     let pexelsApiKey = "563492ad6f91700001000001f1307c3700564c5292f4bb2e00efa5fc"; 
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`
     let headers = {Authorization: `Bearer ${pexelsApiKey}`};
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   
@@ -58,10 +58,12 @@ export default function Dictionary(props){
               defaultValue={props.defaultKeyword}
             />
           </form>
+          <br />
         </section>
         <Results results={results} />
+
         < Photos photos={photos} />
-      </div>
+        </div>
     );
   } else {
     load();

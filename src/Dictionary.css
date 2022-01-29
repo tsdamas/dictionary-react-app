@@ -1,8 +1,5 @@
-.Dictionary h2{
-  font-size: 18px;
-  font-weight: bold; 
-  margin-bottom: 20px;
-
+.Dictionary h1{
+  color: #3497EA;
 }
 
 .Dictionary section {
@@ -22,3 +19,6 @@
 .Dictionary section{
   margin-bottom: 20px;
 }
+
+
+

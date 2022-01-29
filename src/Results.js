@@ -22,8 +22,8 @@ if (props.results) {
     {props.results.meanings.map(function(meaning, index) {
       return (
         <section key={index}>
-          <Meaning meaning={meaning} />
-        </section>   
+          <Meaning meaning={meaning} />   
+        </section>
       );
     })}
   </div>

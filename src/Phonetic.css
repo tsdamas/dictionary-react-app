@@ -3,10 +3,9 @@
 }
 
 .Phonetic a{
-  border: 1px solid #ddd;
   text-decoration: none;
   padding: 8px 15px;
-  font-size: 13px;
+  font-size: 20px;
   margin-right: 10px;
   font-weight: bold;
   border-radius: 20px;
@@ -17,6 +16,8 @@
   background-color: #3497EA;
   color: white;
 }
+
+
 
 .Phonetic .text{
   opacity: 0.5;
