@@ -18,7 +18,7 @@ export default function App() {
         </small>
       </footer>
       </div>
-    </div>
+      </div>
   );
 }
 

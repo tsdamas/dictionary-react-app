@@ -6,7 +6,7 @@ import "./Results.css";
 export default function Results(props){
 if (props.results) {
   return(
-  <div className="Results">
+  <div className="Results col-md-9">
     <section>
     <h2>
       {props.results.word}
@@ -21,12 +21,12 @@ if (props.results) {
     </section>
     {props.results.meanings.map(function(meaning, index) {
       return (
-        <section key={index}>
+        <section key={index} >
           <Meaning meaning={meaning} />   
         </section>
       );
     })}
-  </div>
+    </div>
   );
 } else {
   return null;

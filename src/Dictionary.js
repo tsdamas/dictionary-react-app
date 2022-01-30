@@ -49,21 +49,27 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-          <h1>What word do you want to look up?</h1>
+        <div className="row">
+        <section className="col-md-3">
+          <h1>Dictionary</h1>
+          <h2> What word do you want to look up?</h2>
+          <br />
           <form onSubmit={handleSubmit}>
             <input
               type="search"
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
-            />
+              />
           </form>
           <br />
         </section>
+  
         <Results results={results} />
-
+       </div>
+       <div className="row">
         < Photos photos={photos} />
         </div>
+    </div>
     );
   } else {
     load();
