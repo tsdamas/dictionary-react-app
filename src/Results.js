@@ -6,9 +6,10 @@ import "./Results.css";
 export default function Results(props){
 if (props.results) {
   return(
-  <div className="Results col-md-9">
-    <section>
-    <h2>
+    <div className="Results">
+      <div className="row d-flex justify-content-between">
+    <section className="col-sm-2">
+      <h2>
       {props.results.word}
     </h2>
     {props.results.phonetics.map(function (phonetic, index){
@@ -21,11 +22,12 @@ if (props.results) {
     </section>
     {props.results.meanings.map(function(meaning, index) {
       return (
-        <section key={index} >
+        <section key={index} className="col-md-3">
           <Meaning meaning={meaning} />   
         </section>
       );
     })}
+    </div>
     </div>
   );
 } else {

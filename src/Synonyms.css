@@ -3,12 +3,34 @@
   padding: 0;
 }
 
+
 .Synonyms li{
   font-size:13px; 
-  display: inline-block;
+  display: inline;
   padding-right: 10px;
   line-height: 1;
+  list-style: none; 
+  float: left;
 }
+
+.Synonyms a{
+    display: block;
+    font-weight: bold;
+    color: #3497EA;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+}
+
+.Synonyms a:hover{
+  background-color: #3497EA;
+  color: white;
+}
+
 
 
 

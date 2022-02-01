@@ -14,7 +14,7 @@ export default function App() {
       </main>
       <footer className="App-footer">
         <small> 
-          Coded by Thais Damasceno, open-source on GitHub and hosted on Netifly
+          Coded by Thais Damasceno, <a href="https://github.com/tsdamas/dictionary-react-app">open-source</a> on GitHub and hosted on Netifly
         </small>
       </footer>
       </div>
