@@ -49,22 +49,26 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
-        <div className="row">
         <section>
-          <h1><bold>Dictionary</bold></h1>
-          <h2> What word do you want to look up?</h2>
-          <br />
+        <div className="row d-flex .justify-content-sm-around">
+          <div className="col-sm-6">
+          <h1><span>Diction</span><span>ary</span></h1>
+          </div>
+          <div className="col-sm-6">
           <form onSubmit={handleSubmit}>
-            <input
-              className="icon"
-              type="search"
-              onChange={handleKeywordChange}
-              defaultValue={props.defaultKeyword}
-              />
+            <input 
+            class="form-control" 
+            type ="search" 
+            list="datalistOptions" 
+            onChange={handleKeywordChange}
+            defaultValue={props.defaultKeyword}
+            placeholder="Type to search..." />
           </form>
+          </div>
+          
           <br />
-        </section>
        </div>
+        </section>
         <Results results={results} />
        <div className="row">
         < Photos photos={photos} />
