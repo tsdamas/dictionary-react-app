@@ -1,7 +1,7 @@
 import React from "react";
-import Meaning from "./Meaning"; 
-import Phonetic from "./Phonetic"; 
-import "./Results.css"; 
+import Meaning from "./meaning"; 
+import Phonetic from "./phonetic"; 
+import "./results.css"; 
 
 export default function Results(props){
 if (props.results) {
