@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# dictionary-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+##Description
+
+Welcome to Onboard fellow Developer, this is where you find dictionary application built in React and using https://dictionaryapi.dev/. Here you can search words and get their meaning, phonetics and synonyms. It is my second react app, I faced some challenges organizing the style structure of the UI and that is my next improvement. 
+
+##Contribution Guidelines
+The contribution guidelines are as per the guide [HERE](url).
+
+Instructions
+Fork this Repository
+Clone your forked repository
+Add your scripts
+Commit & Push
+Create a pull request
+Star this repository
+Wait for Pull Request to merge
+Celebrate, your first step into the open Source World and contribute more
+
+Note: When you Add a project Add it to the README for ease of finding it
+Note: Please do not put the project link to reference your local forked repo. Always link it to this repo after it's been merged with main.
 
 ## Available Scripts
 
@@ -38,6 +58,8 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## How to Use the Project
 
 ## Learn More
 
