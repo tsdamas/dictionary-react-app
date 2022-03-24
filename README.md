@@ -83,3 +83,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+## Built with 
+
+- React;
+- HTML; 
+- CSS; 
+
+## Links 
+
+- [Repo] (https://github.com/tsdamas/dictionary-react-app "<dictionary-react-app> Repo")
+
+- [Live] (<https://friendly-varahamihira-368467.netlify.app> "Live view") 
+
+- [Bugs] (https://github.com/tsdamas/dictionary-react-app/issues "Issues pages")
+
+- [API] (<https://dictionaryapi.dev/> "Dictionary API")
+
+- [API] (<https://www.pexels.com/api/> "API Pexels") 
+
+## Screenshots
+
+![Home Page](images/live-dictionary-app.png "Home Page")
+
+## Future Updates
+
+- [ ] Style Fix and update
+- [ ] Mobile Responsive
+- [ ] Tests
+
+## Author
+
+**Thais Damasceno**
+
+- [Profile](https://github.com/tsdamas "Thais Damasceno")
+- [Email](mailto:tssdamasceno@gmail.com?subject=Hi "Hi!")
+- [Website](https://stoic-mclean-831fce.netlify.app "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
