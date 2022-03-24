@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-Welcome to Onboard fellow Developer, this is where you find dictionary application built in React and using [API] (https://dictionaryapi.dev/). Here you can search words and get their meaning, phonetics and synonyms. It is my second react app, I faced some challenges organizing the style structure of the UI and that is my next improvement.
+Welcome to Dictionary App fellow Developer, this is where you find dictionary application built in React and using [API] (https://dictionaryapi.dev/). Here you can search words and get their meaning, phonetics and synonyms. It is my second react app, I faced some challenges organizing the style structure of the UI and that is my next improvement.
 
 ## Contribution Guidelines
 
