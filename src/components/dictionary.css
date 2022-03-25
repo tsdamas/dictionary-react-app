@@ -7,21 +7,29 @@
   margin: 0px auto;
 }
 
+.Dictionary{ 
+  padding-left: 150px
+}
+
+/*The idea here is: push the container to the exact middle of the browser window with left: 50%;, then pull it back to the left edge with negative -50vw margin.*/
 .Dictionary .second__container{
-  background-color: #2B2F40;
+  background: linear-gradient(135deg, #353949, #1C1F2A 60%);
   padding-top: 40px; 
   padding-right: 90px; 
   padding-left: 70px;
   border-top-left-radius: 50px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
-
 
 .Dictionary h2{
   color: #3497EA;
   text-align: center;
 }
-
-
 
 .Dictionary input{
   width: 50%;
@@ -45,6 +53,10 @@
 
 .Dictionary section{
   margin-bottom: 20px;
+}
+
+.Dictionary .row{
+  border-bottom-right-radius: 50px;
 }
 
 .Dictionary i{
