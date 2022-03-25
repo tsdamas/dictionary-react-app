@@ -51,8 +51,8 @@ export default function Dictionary(props){
       <div className="Dictionary">
         <section>
         <div className="row d-flex .justify-content-sm-around">
-          <div className="col-sm-6">
-          <h1><span>Diction</span><span>ary</span></h1>
+          <div className="col-sm-6 header__title">
+          <h1>Dictionary</h1>
           </div>
           <div className="col-sm-6">
           <form onSubmit={handleSubmit}>
@@ -65,13 +65,14 @@ export default function Dictionary(props){
             placeholder="Type to search..." />
           </form>
           </div>
-          
           <br />
        </div>
         </section>
+        <div className="second__container">
         <Results results={results} />
        <div className="row">
         < Photos photos={photos} />
+        </div>
         </div>
     </div>
     );

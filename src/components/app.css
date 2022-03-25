@@ -1,5 +1,5 @@
 body{
-  background-color: #141414; 
+  background-color: #1D202B; 
 }
 
 a{
@@ -9,6 +9,10 @@ a{
 h1{
   margin: 50px auto;
   font-size: 36px;
+}
+
+small{
+  color: white;
 }
 
 .App-header{
