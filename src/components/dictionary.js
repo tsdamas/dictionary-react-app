@@ -49,8 +49,8 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-        <div className="row d-flex .justify-content-sm-around">
+        <section className="dictionary__section">
+        <div className="row d-flex justify-content-sm-around">
           <div className="col-sm-6 header__title">
           <h1>Dictionary</h1>
           </div>
