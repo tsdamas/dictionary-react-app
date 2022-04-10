@@ -13,7 +13,7 @@
 }
 
 /*The idea here is: pushing the container to the exact middle of the browser window with left: 50%;, then pull it back to the left edge with negative -50vw margin.*/
-.Dictionary .second__container{
+.Dictionary .second-container{
   background: linear-gradient(135deg, #353949, #1C1F2A 60%);
   padding-top: 40px; 
   padding-right: 90px; 
@@ -42,9 +42,6 @@
   border: 1px solid white;
 }
 
-.Dictionary form{
- text-align: right;
-}
 
 .Dictionary .form-control{
   background-color: #1C1B20;
@@ -52,7 +49,7 @@
   border: 1px solid white;
 }
 
-.Dictionary .dictionary__section{
+.Dictionary .dictionary-section{
   margin-bottom: 20px;
 }
 
