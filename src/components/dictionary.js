@@ -49,15 +49,15 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-        <div className="row d-flex .justify-content-sm-around">
-          <div className="col-sm-6 header__title">
+        <section className="dictionary-section">
+        <div className="row d-flex justify-content-evenly">
+          <div className="col-6 header-title">
           <h1>Dictionary</h1>
           </div>
-          <div className="col-sm-6">
+          <div className="col-6 header-form">
           <form onSubmit={handleSubmit}>
             <input 
-            class="form-control" 
+            className="form-control" 
             type ="search" 
             list="datalistOptions" 
             onChange={handleKeywordChange}
@@ -68,7 +68,7 @@ export default function Dictionary(props){
           <br />
        </div>
         </section>
-        <div className="second__container">
+        <div className="second-container">
         <Results results={results} />
        <div className="row">
         < Photos photos={photos} />

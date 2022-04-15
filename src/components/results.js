@@ -8,7 +8,7 @@ if (props.results) {
   return(
     <div className="Results">
       <div className="row d-flex justify-content-between">
-    <section className="col-sm-2">
+    <section className="col-sm-2 results__section">
       <h2>
       {props.results.word}
     </h2>
@@ -22,7 +22,7 @@ if (props.results) {
     </section>
     {props.results.meanings.map(function(meaning, index) {
       return (
-        <section key={index} className="col-md-3">
+        <section key={index} className="col-md-3 meaning__section">
           <Meaning meaning={meaning} />   
         </section>
       );
