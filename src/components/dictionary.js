@@ -49,6 +49,7 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
+        {/**Form header*/}
         <section className="dictionary-section">
         <div className="row d-flex justify-content-evenly">
           <div className="col-6 header-title">
@@ -68,12 +69,21 @@ export default function Dictionary(props){
           <br />
        </div>
         </section>
+        {/*Search response*/}
         <div className="second-container">
-        <Results results={results} />
-       <div className="row">
-        < Photos photos={photos} />
+         <div className="row d-flex justify-content-between">
+           <div className="col-sm-9">
+             <div className="row">
+               <div className="col-sm-6">
+                 <Results results={results} />
+                 </div>
+                 <div className="col-sm-6">
+                   < Photos photos={photos} />
+                   </div>
+                   </div>
         </div>
-        </div>
+       </div>
+      </div>
     </div>
     );
   } else {
