@@ -71,13 +71,13 @@ export default function Dictionary(props){
         </section>
         {/*Search response*/}
         <div className="second-container">
-         <div className="row d-flex justify-content-between">
-           <div className="col-sm-9">
+         <div className="row">
+           <div className="col-sm-12">
              <div className="row">
                <div className="col-sm-6">
                  <Results results={results} />
                  </div>
-                 <div className="col-sm-6">
+                 <div className="col-md-6">
                    < Photos photos={photos} />
                    </div>
                    </div>

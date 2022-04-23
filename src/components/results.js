@@ -8,7 +8,7 @@ if (props.results) {
   return(
     <div className="Results">
       <div className="row">
-        <section className="col-sm-3 results__section">
+        <section className="col-md-4 results__section">
           <h2>
             {props.results.word}
             </h2>
@@ -20,10 +20,9 @@ if (props.results) {
                 );
                 })}
                 </section>
-                {/*Force next columns to break to new line at md breakpoint and up*/}
                 {props.results.meanings.map(function(meaning, index) {
                   return (
-                  <section key={index} className="col-sm-3 meaning__section">
+                  <section key={index} className="col-md-4 meaning__section">
                     <Meaning meaning={meaning} />   
                   </section>
                   );
