@@ -51,7 +51,7 @@ export default function Dictionary(props){
       <div className="Dictionary">
         {/**Form header*/}
         <section className="dictionary-section">
-        <div className="row d-flex justify-content-evenly">
+        <div className="row">
           <div className="col-6 header-title">
           <h1>Dictionary</h1>
           </div>
@@ -74,10 +74,10 @@ export default function Dictionary(props){
          <div className="row">
            <div className="col-sm-12">
              <div className="row">
-               <div className="col-sm-6">
+               <div className="col-sm-6 results-section">
                  <Results results={results} />
                  </div>
-                 <div className="col-md-6">
+                 <div className="col-md-6 photos-section">
                    < Photos photos={photos} />
                    </div>
                    </div>

@@ -8,7 +8,7 @@ if (props.results) {
   return(
     <div className="Results">
       <div className="row">
-        <section className="col-md-4 results__section">
+        <section className="results__section">
           <h2>
             {props.results.word}
             </h2>
@@ -22,7 +22,7 @@ if (props.results) {
                 </section>
                 {props.results.meanings.map(function(meaning, index) {
                   return (
-                  <section key={index} className="col-md-4 meaning__section">
+                  <section key={index} className="meaning__section">
                     <Meaning meaning={meaning} />   
                   </section>
                   );
