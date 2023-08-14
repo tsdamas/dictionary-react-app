@@ -1,5 +1,7 @@
 # dictionary-react-app
 
+![Dictionary app](images/live-dictionary-app.png "Home Page")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description
@@ -108,7 +110,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Screenshots
 
-![Home Page](images/live-dictionary-app.png "Home Page")
+![Dictionary app](images/live-dictionary-app.png "Home Page")
 
 ## Future Updates
 
